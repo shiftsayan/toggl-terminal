@@ -146,7 +146,7 @@ def togglProjects(auth_token):
     print(result)
 
 #########################
-#### Main Functions #####
+##### Main Function #####
 #########################
 
 def main():
