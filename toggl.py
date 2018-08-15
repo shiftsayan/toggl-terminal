@@ -95,7 +95,7 @@ def togglStart(auth_token):
     time_entry['pid'] = project_id
     time_entry['start'] = datetime.datetime.now().isoformat()
     time_entry['duration'] = -1 * time.time()
-    time_entry['created_with'] = 'toggl_terminal'
+    time_entry['created_with'] = 'toggl-terminal'
 
     wrapper = dict()
     wrapper['time_entry'] = time_entry
